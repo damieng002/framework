@@ -52,7 +52,7 @@ namespace Accord.Tests.Math
             bool success = solver.Minimize();
 
             // And get the solution vector using
-            double[] solution = solver.Solution; // should be (-1, 1)
+            double[] solution = solver.Solution; // should be (-1, 0)
 
             // The minimum at this location would be:
             double minimum = solver.Value; // should be 0
